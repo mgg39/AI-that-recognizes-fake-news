@@ -1,5 +1,5 @@
 
-#start imports
+#start import section
 pip install --upgrade tensorflow-gpu==2.0
 
 pip install plotly
@@ -37,6 +37,7 @@ import plotly.express as px
 from nltk import word_tokenize
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
+
 #end import section
 
 #start preping and importing data
